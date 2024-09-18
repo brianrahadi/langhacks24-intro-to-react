@@ -1,5 +1,9 @@
+import { useQuery } from "convex/react";
+import { api } from "../../convex/_generated/api";
 
 export default function GuestbookSection() {
+    const tasks = useQuery(api.tasks.get);
+
     return (
         <section className="content-container" id="guestbook">
             <h2>Guest Book</h2>
