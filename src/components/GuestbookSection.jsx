@@ -27,7 +27,6 @@ export default function GuestbookSection() {
         day: 'numeric'
     })
 
-
     return (
         <section className="content-container" id="guestbook">
             <h2>Guest Book</h2>

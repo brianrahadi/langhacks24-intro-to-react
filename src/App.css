@@ -301,6 +301,7 @@ header nav ul li a.btn {
 
 .guestbook--content--form textarea {
   height: 8rem;
+  flex: 1;
 }
 
 .guestbook--content--reviews {
@@ -344,5 +345,4 @@ header nav ul li a.btn {
     flex-direction: row;
   }
 }
-
 /* ----------------------------------------- Guestbook End */

@@ -10,7 +10,6 @@ export default function AboutSection() {
                     impact on
                     the
                     world.
-
                     My goal is to use my skills and knowledge to develop innovative solutions that can improve people's
                     lives! I
                     am dedicated to building high-quality products that help make the world a better place. To do this,
