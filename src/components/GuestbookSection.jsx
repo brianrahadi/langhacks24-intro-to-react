@@ -49,7 +49,7 @@ export default function GuestbookSection() {
                         onChange={(e) => setMessage(e.target.value)}
                         required
                     ></textarea>
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="btn">Submit</button>
                 </form>
 
                 <div className="guestbook--content--reviews">
