@@ -54,7 +54,7 @@ export default function GuestbookSection() {
                 </form>
 
                 <div className="guestbook--content--reviews">
-                    {tasks.map(task => {
+                    {tasks && tasks.map(task => {
                         return (
                             <div className="guestbook--content--review">
                                 <div className="guestbook--content--review--name">
