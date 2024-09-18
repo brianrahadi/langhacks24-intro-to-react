@@ -66,30 +66,6 @@ export default function GuestbookSection() {
                             </div>
                         );
                     })}
-                    {/* <div className="guestbook--content--review">
-                        <div className="guestbook--content--review--name">
-                            <div className="circle"></div>
-                            <b>Brian Rahadi</b>
-                        </div>
-                        <p className="guestbook--content--review--comment">Hey Sebastian! Nice portfolio website</p>
-                        <p className="guestbook--content--review--date">Sep 1, 2024</p>
-                    </div>
-                    <div className="guestbook--content--review">
-                        <div className="guestbook--content--review--name">
-                            <div className="circle"></div>
-                            <b>Brian Rahadi</b>
-                        </div>
-                        <p className="guestbook--content--review--comment">Hey Sebastian! Nice portfolio website</p>
-                        <p className="guestbook--content--review--date">Sep 1, 2024</p>
-                    </div>
-                    <div className="guestbook--content--review">
-                        <div className="guestbook--content--review--name">
-                            <div className="circle"></div>
-                            <b>Brian Rahadi</b>
-                        </div>
-                        <p className="guestbook--content--review--comment">Hey Sebastian! Nice portfolio website</p>
-                        <p className="guestbook--content--review--date">Sep 1, 2024</p>
-                    </div> */}
                 </div>
             </div>
         </section>
