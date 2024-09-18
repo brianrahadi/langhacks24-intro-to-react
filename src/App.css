@@ -263,3 +263,86 @@ header nav ul li a.btn {
 }
 
 /* ----------------------------------------- Projects End */
+
+/* ----------------------------------------- Guestbook Start */
+#guestbook {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.guestbook--content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.guestbook--content--form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-neutral-0);
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 2rem;
+  flex: 1;
+  height: 100%;
+}
+
+.guestbook--content--form input, .guestbook--content--form textarea {
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.guestbook--content--form input {
+  height: 2.5rem;
+}
+
+.guestbook--content--form textarea {
+  height: 8rem;
+}
+
+.guestbook--content--reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.guestbook--content--review {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.5rem;
+  padding: 2rem;
+  border: 0.5px solid var(--color-neutral-2);
+  border-radius: 1rem;
+}
+
+.guestbook--content--review--name {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.circle {
+  width: 1rem;
+  height: 1rem;
+  background-color: #007fff;
+  border-radius: 50%; /* This makes the div a circle */
+  display: inline-block;
+}
+
+.guestbook--content--review--date {
+  color: var(--color-neutral-7)
+}
+
+
+@media only screen and (min-width: 768px) {
+  .guestbook--content {
+    flex-direction: row;
+  }
+}
+
+/* ----------------------------------------- Guestbook End */
